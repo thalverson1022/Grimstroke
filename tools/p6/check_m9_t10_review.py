@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Snapshot/reconcile runtime and protected profiles for the T10 review interval."""
 import hashlib
 import json

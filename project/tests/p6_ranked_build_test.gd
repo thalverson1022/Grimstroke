@@ -169,8 +169,8 @@ func _read_json(path: String) -> Dictionary:
 	return JSON.parse_string(FileAccess.get_file_as_string(ProjectSettings.globalize_path("res://../" + path)))
 
 func _check_planning_fixtures() -> void:
-	var fixtures := _read_json("docs/P6M2_T5_Build_Fixtures.json")
-	var manifest := _read_json("docs/P6M2_T4_Content_Identity_Manifest.json")
+	var fixtures := _read_json("tools/p6/fixtures/P6M2_T5_Build_Fixtures.json")
+	var manifest := _read_json("tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json")
 	var graphs := {}
 	for source in manifest["sources"]:
 		var draft: Dictionary = _read_json(source["file"])["tree"]

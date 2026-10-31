@@ -9,11 +9,11 @@ DEST = ROOT / 'project/data/ui/full_tree_display.json'
 
 
 def catalog():
-    manifest = json.loads((ROOT / 'docs/P6M2_T4_Content_Identity_Manifest.json').read_text())
+    manifest = json.loads((ROOT / 'tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json').read_text())
     icons = json.loads((ROOT / 'project/data/ui/icon_assignments.json').read_text())['entries']
     result = {'schema_version': 1, 'purpose': 'Presentation only; never allocate or resolve this catalog.', 'trees': []}
     for name in ['Bladedancer', 'Thief', 'Assassin', 'Shadow']:
-        source = 'docs/talent_tree_drafts/' + name + '.json'
+        source = 'tools/p6/fixtures/talent_tree_drafts/' + name + '.json'
         tree = json.loads((ROOT / source).read_text())['tree']
         records = [r for r in manifest['records'] if r['source_file'] == source]
         by_pointer = {r['pointer']: r for r in records}

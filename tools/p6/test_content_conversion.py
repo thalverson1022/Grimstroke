@@ -10,9 +10,9 @@ converter.artifacts()
 original_root = converter.ROOT
 with tempfile.TemporaryDirectory() as folder:
     fixture_root = Path(folder)
-    (fixture_root / 'docs').mkdir()
-    shutil.copytree(original_root / 'docs/talent_tree_drafts', fixture_root / 'docs/talent_tree_drafts')
-    manifest_path = fixture_root / 'docs/P6M2_T4_Content_Identity_Manifest.json'
+    (fixture_root / 'tools/p6/fixtures').mkdir(parents=True)
+    shutil.copytree(original_root / 'tools/p6/fixtures/talent_tree_drafts', fixture_root / 'tools/p6/fixtures/talent_tree_drafts')
+    manifest_path = fixture_root / 'tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json'
     original = (original_root / manifest_path.relative_to(fixture_root)).read_text(encoding='utf-8')
     manifest_path.write_text(original, encoding='utf-8')
     converter.ROOT = fixture_root

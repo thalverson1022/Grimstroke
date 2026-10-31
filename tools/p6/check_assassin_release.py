@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 provenance audit. Use a separate checkout of Grimstroke commit 34cfed5 with its historical documents and reports.')
 """Verify Assassin promotion and immutable predecessor provenance."""
 import hashlib
 import json

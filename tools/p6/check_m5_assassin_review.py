@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Static T7 specification checks. Does not execute or promote game content."""
 import hashlib
 import json
@@ -111,7 +112,7 @@ def main():
     baseline = json.loads((OUT / 'source_hashes.json').read_text(encoding='utf-8'))
     checked = 0
     for path, digest in baseline.items():
-        if promoted and not (path.startswith('docs/talent_tree_drafts/') or path.endswith('Content_Identity_Manifest.json')):
+        if promoted and not (path.startswith('tools/p6/fixtures/talent_tree_drafts/') or path.endswith('Content_Identity_Manifest.json')):
             continue
         checked += 1
         validate_source(path, digest)

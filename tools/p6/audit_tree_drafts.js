@@ -1,3 +1,4 @@
+throw new Error("Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.");
 // Read-only draft inspection; --write refreshes only the generated audit appendix.
 // Tree Lab validation/preview arithmetic is evidence, not approved gameplay policy.
 'use strict';
@@ -25,7 +26,7 @@ function object(title, pointer, value) {
   out.push('### ' + title, '', 'JSON pointer: `' + pointer + '`', '', '```json', JSON.stringify(value, null, 2), '```', '');
 }
 for (const [index, name] of files.entries()) {
-  const file = 'docs/talent_tree_drafts/' + name + '.json';
+  const file = 'tools/p6/fixtures/talent_tree_drafts/' + name + '.json';
   const bytes = fs.readFileSync(path.join(root, file));
   const data = JSON.parse(bytes.toString('utf8'));
   const tree = data.tree;

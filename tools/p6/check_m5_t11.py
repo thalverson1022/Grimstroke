@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Reconcile M5 closeout evidence, static checks and repository checkpoint."""
 import argparse, hashlib, json, subprocess, sys
 from pathlib import Path

@@ -7,6 +7,7 @@ def validate_source(path, expected, raw=None):
     actual = hashlib.sha256((ROOT/path).read_bytes() if raw is None else raw).hexdigest()
     if actual == expected:
         return 'unchanged'
+    path = path.replace('tools/p6/fixtures/', 'docs/')
     approvals = json.loads((ROOT/'tools/p6/approved_source_successors.json').read_text(encoding='utf-8'))
     entry = approvals.get(path, {})
     assert (expected, actual) == (entry.get('original'), entry.get('successor')), f'Unreviewed source drift: {path}'

@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 provenance audit. Use a separate checkout of Grimstroke commit 34cfed5 with its historical documents and reports.')
 """Verify explicit T4 promotion provenance without changing compatibility data."""
 import hashlib
 import json

@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Check current M6 closeout against retained T10 evidence, not obsolete M5 hashes."""
 import hashlib,json,re
 from pathlib import Path

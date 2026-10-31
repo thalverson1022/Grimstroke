@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Summarize native Balance Lab Exsanguinate samples; no gameplay edits."""
 from pathlib import Path
 import csv, hashlib, json, re, subprocess

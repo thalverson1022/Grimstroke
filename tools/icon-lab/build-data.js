@@ -5,8 +5,8 @@ const root = path.resolve(__dirname, '../..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8').replace(/^\uFEFF/, '');
 const json = p => JSON.parse(read(p));
 const hash = b => crypto.createHash('sha256').update(b).digest('hex');
-const manifest = json('docs/P6M2_T4_Content_Identity_Manifest.json');
-const inventory = json('docs/P6M4_T2_Icon_Inventory.json');
+const manifest = json('tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json');
+const inventory = json('tools/p6/fixtures/P6M4_T2_Icon_Inventory.json');
 const drafts = new Map(manifest.sources.map(s => [s.file, json(s.file)]));
 const at = (obj, pointer) => pointer.split('/').slice(1).reduce((o, k) => o?.[k], obj);
 const assets = [];
@@ -62,7 +62,7 @@ const entries = inventory.entries.map(e=>{
     content_status:e.scope==='full_library'?'Full-library design; complete redesigned binding remains M5':'M4 candidate; redesigned playable integration pending',
     source:record?.source_file || 'project/data/skills', source_pointer:record?.pointer||null};
 });
-const add=(category,id,name,description,asset=null,scope='full_library')=>entries.push({category,id,name,description,current_icon:asset,scope,tree:'Shared',description_source:'Reviewed mechanics summary',content_status:'Shared mechanic; icon assignment does not promote gameplay content',source:'docs/Combat_Mechanics_Reference.md'});
+const add=(category,id,name,description,asset=null,scope='full_library')=>entries.push({category,id,name,description,current_icon:asset,scope,tree:'Shared',description_source:'Reviewed mechanics summary',content_status:'Shared mechanic; icon assignment does not promote gameplay content',source:'https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md'});
 const defenses={armor:['Armor','Mitigates physical damage.','combat_ui_icons/enemy_armor.png'],resistance:['Resistance','Mitigates elemental damage.','combat_ui_icons/resistance.png'],dodge:['Dodge','Chance for an attack to miss.'],crit_negation:['Critical Negation','Mitigates critical-hit amplification.'],block:['Block','Flat physical damage mitigation.'],absorb:['Absorb','Flat elemental damage mitigation.'],cleanse:['Cleanse','Removes eligible enemy statuses at its attack threshold.'],suppress:['Suppress','Slows Poison tick cadence.'],slow:['Slow','Slows skill casting.'],stun:['Stun','Delays macro progression.'],interrupt:['Interrupt','Interrupts and temporarily locks affected skill executions.']};
 for(const [id,[name,desc,file]] of Object.entries(defenses)) add('Defensive Mechanics','defense.'+id,name,desc,'res://assets/'+(file||'ui/icons/mechanics/'+id+'.png'),'shared');
 const buffs={footwork:['Footwork','Up to five stacks with a shared three-second timer. Leaping Plunge consumes stacks at cast start.','m4_core'],readiness:['Readiness','One untimed charge, consumed by Parry Strike.','m4_core'],precision:['Precision','One untimed charge. Eligible Stab/Heavy Slash consumes it for a guaranteed repeat.'],dance:['Dance','Five-second window for guaranteed eligible macro repeats. Separate from the skill cooldown.','m4_mixed_addition'],bypass:['Bypass','Up to three stacks, shared three-second timer; each adds a separate 10% elemental multiplier.'],virulent_poison:['Virulent Poison','Five charges per independent instance. Fueled Poison ticks spend charges; no timed expiration.'],master_of_poisons:['Master of Poisons','Five-second resistance-ignore window.'],touch_of_darkness:['Touch of Darkness','Eight-second additive attack-speed bonus from actual Poison consumed; instances expire independently.'],beguiling_presence:['Beguiling Presence','Ten-second base elemental bonus from actual Decay consumed; instances expire independently.']};

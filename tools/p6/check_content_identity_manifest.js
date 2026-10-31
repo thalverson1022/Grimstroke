@@ -7,7 +7,7 @@ const assert = require('node:assert/strict');
 const validateSource = require('./source_provenance.js');
 const root = path.resolve(__dirname, '../..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
-const manifest = JSON.parse(read('docs/P6M2_T4_Content_Identity_Manifest.json'));
+const manifest = JSON.parse(read('tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json'));
 const ids = new Set();
 const keys = new Set();
 const counts = {};

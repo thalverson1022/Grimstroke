@@ -79,7 +79,7 @@ Godot screens. Existing mappings, cleared mappings and new imported mappings are
 all explicit. Assigning an icon must never promote gameplay content.
 
 The approved assignment handoff is now installed. See the
-[integration report](../../docs/P6M4_Icon_Assignment_Integration.md) for game
+[integration report](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/P6M4_Icon_Assignment_Integration.md) for game
 consumers, naming, buff links and verification. Import
 [installed_icons.json](approved/installed_icons.json) for the exact installed
 workspace; the original user export and frozen source catalog are preserved
@@ -177,7 +177,7 @@ The approved Wet Stone → Whetstone display-name correction preserves the stabl
 
 ## M7-T4 candidate review
 
-[Comparison](proposals/m7-t4/comparison.png) and [portable candidate workspace](proposals/m7-t4/workspace.json) contain five proposed refinements. The five refinements and Flat charcoal treatment were approved under P6M7-D018; the proposal remains historical evidence. Exact prompts, generated masters, normalized 32px assets and hashes accompany the proposal. See [T4 status](../../docs/archive/m7/P6M7_T4_Icon_Production_And_Integration.md).
+[Comparison](proposals/m7-t4/comparison.png) and [portable candidate workspace](proposals/m7-t4/workspace.json) contain five proposed refinements. The five refinements and Flat charcoal treatment were approved under P6M7-D018; the proposal remains historical evidence. Exact prompts, generated masters, normalized 32px assets and hashes accompany the proposal. See [T4 status](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/archive/m7/P6M7_T4_Icon_Production_And_Integration.md).
 
 ## Approved flat-charcoal installation
 

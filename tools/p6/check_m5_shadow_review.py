@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Static Shadow review checks; no runtime promotion or approval."""
 import hashlib
 import json
@@ -68,7 +69,7 @@ def main():
         if '://' not in target:
             assert (DOC.parent / target.split('#')[0]).exists(), target
     baseline = json.loads((OUT/'source_hashes.json').read_text(encoding='utf-8'))
-    immutable = {p:d for p,d in baseline.items() if p.startswith('docs/talent_tree_drafts/') or p.endswith('Content_Identity_Manifest.json')}
+    immutable = {p:d for p,d in baseline.items() if p.startswith('tools/p6/fixtures/talent_tree_drafts/') or p.endswith('Content_Identity_Manifest.json')}
     for path,digest in immutable.items():
         validate_source(path, digest)
     review = ledger['design_reviews']['tree.shadow']

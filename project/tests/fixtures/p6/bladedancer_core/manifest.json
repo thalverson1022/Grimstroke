@@ -16,8 +16,8 @@
     "final UI/icons"
   ],
   "sources": {
-    "docs\\P6M2_T4_Content_Identity_Manifest.json": "c481021dbe512387d9638d7775a0d7b4dfad4a7842202e8b2a1009195a61c18c",
-    "docs\\P6M2_T5_Build_Fixtures.json": "92a6e5f2f2b1d054de8eb30d6bc48b709af14577c7b019bc090eca4979adaf4b",
-    "docs\\talent_tree_drafts\\Bladedancer.json": "8c33a60060ad7e42c45f254b2c24515c217f22f94fe68dfec819ae183242cbc2"
+    "tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json": "ae13d45c20b9322bb82076f918a696d83756a200b59a527023aa6e33ba1d1dcb",
+    "tools/p6/fixtures/P6M2_T5_Build_Fixtures.json": "71f6a106f1e0054a2bdc3da4892aefffe78b0d42fc1c2b1c956ff78858a7890e",
+    "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json": "8c33a60060ad7e42c45f254b2c24515c217f22f94fe68dfec819ae183242cbc2"
   }
 }

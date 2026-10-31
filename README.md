@@ -1,71 +1,11 @@
 # Project Grimstroke
 
-Grimstroke starts the next phase from FacelessVoid's accepted Phase 6 baseline, commit `b5ab4458a45c65b570de08a69865fded2da64a61`, with a fresh Git history. The 2026-10-30 handoff and its documentation navigation updates are included. Gameplay is unchanged; the Godot project name and save directory are now Grimstroke. Next-phase scope and milestones have not yet been defined.
+A fantasy DPS and build-crafting RPG prototype, continuing the accepted FacelessVoid baseline.
 
-**Phase 6 is Complete. M1–M11 and M11 T1–T6 are Complete within their accepted scopes.** Final user acceptance is recorded under M11 D012 (2026-10-30). [Current documentation](docs/README.md), [Phase 6 roadmap](docs/P6_Milestone_Tracker.md) and [accepted regression/closeout record](docs/P6M11_Regression_And_Closeout_Tracker.md) summarize verification, retained engine/environment limitations and deferred economy/trigger/balance work. Export/package readiness is conditional on separate validation.
+Start with [Game Scope](docs/Game_Scope.md), the single maintained project overview.
 
-**Start next-phase work with [Next Phase Handoff](docs/Next_Phase_Handoff.md).** It summarizes accepted ground truth and directs each task to only the relevant source. Phase 6 history is optional reference.
+Open `project/project.godot` in **Godot 4.7** and run the main scene. Windows saves and settings use `%APPDATA%/Grimstroke/`, separate from earlier projects.
 
-Combat rules: [Combat Mechanics Reference](docs/Combat_Mechanics_Reference.md) — current formulas, skill values, interaction exceptions and implementation status.
+Repository: [thalverson1022/Grimstroke](https://github.com/thalverson1022/Grimstroke), branch `main`.
 
-## Design labs
-
-- [Icon Lab](tools/icon-lab/README.md): mechanics icon library, image
-  imports, assignment previews and portable JSON workspaces. Open
-  `tools/icon-lab/index.html` directly in a browser.
-
-- [Tree Lab](tools/tree-lab/README.md): visual talent-tree editor, JSON import/export,
-  browser draft recovery, and point-allocation preview. Open
-  `tools/tree-lab/index.html` directly in a browser; no server or install is needed.
-- [Shop Lab](tools/shop-lab/README.md)
-- [Monster Lab](tools/monster-lab/README.md)
-- [Balance Lab](tools/balance-lab/README.md)
-- [Sprite Lab](tools/sprite-lab/README.md)
-
-Project FacelessVoid is the Phase 6 Rogue skill-tree redesign, built on Enigma's
-audited Phase 5 generated-contract Rogue adventure loop. The current baseline is a
-playable fantasy roguelite deck-and-build RPG prototype focused on readable
-buildcraft, generated contracts, deterministic rewards, and gear-driven matchup
-decisions.
-
-Phase 5 replaces the old gear assumptions with a five-slot Rogue gear system:
-Dagger, Hood, Doublet, Ring, and Necklace. It adds deterministic item
-generation, new rarity rules, Cursed and Chaos drawbacks, Unique Specials,
-fixed Legendary equipment, reward/shop integration, readable item
-cards, Practice Room validation, and Balance Lab coverage.
-
-Seven-slot Legs/Pants and Hands/Gloves ownership/save and ordinary acquisition are implemented under M9-T5/T6, with approved stat pools and equal eligible-slot selection. Fresh Adventures equip only Crude Dagger. Seven-slot UI is implemented, verified and accepted under D018; T8 supplied artwork, catalog20 and four new Legendary signatures are integrated, verified and accepted; M9–M11 closeout records retain their evidence and limits.
-
-## Repository Setup
-
-- Primary branch: `main`
-- Development branches: create as needed for next-phase work.
-- Godot project: `project/project.godot` (Project Manager name: **Grimstroke**)
-- Separate Windows saves/settings: `%APPDATA%/Grimstroke/`; FacelessVoid and Enigma keep their original data.
-- Godot version: `4.7`
-- Standalone remote: `https://github.com/thalverson1022/Grimstroke.git`
-- Audited source baseline: Enigma `d0e025ae9ff6b86aa389582443be6382547cb4cc`
-- Start here: [Next Phase Handoff](docs/Next_Phase_Handoff.md)
-- Progress and decisions: [Phase 6 milestone tracker](docs/P6_Milestone_Tracker.md)
-- Phase status and milestone boundaries: [current roadmap](docs/P6_Milestone_Tracker.md).
-- Integration and validation: [audited baseline](docs/P6_Audited_Baseline_Integration.md)
-
-## Inherited validation and export tools
-
-Run the final regression and itch.io export package scripts from the repository
-root:
-
-```powershell
-tools/p5m12/run_regression.ps1
-tools/p5m12/export_itchio.ps1
-```
-
-The itch.io-ready web package is written to:
-
-```text
-release/itchio/facelessvoid-phase6-itch.zip
-```
-
-The inherited exporter now targets FacelessVoid. A new package must be built
-and validated before it is treated as a Phase 6 release. Historical Phase 5 documents remain in Enigma and Git history; this
-repository's docs folder contains Phase 6 context only.
+Browser authoring tools live under `tools/`, with their own usage instructions. Required legacy JSON inputs live in `tools/p6/fixtures/`. Retired phase-document generators stop with instructions to use the historical checkout. Detailed phase records remain in Git at initial commit `34cfed5`.

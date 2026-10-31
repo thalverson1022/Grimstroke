@@ -8,6 +8,7 @@ const read = p => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
 module.exports = function validateSource(file, expected, raw) {
   const actual = crypto.createHash('sha256').update(raw).digest('hex');
   if (actual === expected) return 'unchanged';
+  file = file.replace('tools/p6/fixtures/', 'docs/');
   const entry = read('tools/p6/approved_source_successors.json')[file];
   assert(entry, 'Unreviewed source drift: '+file);
   assert.equal(expected, entry.original);

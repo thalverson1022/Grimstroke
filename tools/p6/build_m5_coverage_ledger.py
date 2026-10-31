@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """Generate/check the M5-T2 audit snapshot. No game resources or saves are written.
 
 Annotations are reviewed audit conclusions, not inferred executable mechanics.
@@ -13,7 +14,7 @@ from source_provenance import validate_source
 ROOT = Path(__file__).resolve().parents[2]
 DEST = ROOT / 'docs/P6M5_T2_Content_Coverage_Ledger.json'
 VIEW = ROOT / 'docs/P6M5_T2_Content_Coverage_Ledger.md'
-MANIFEST = 'docs/P6M2_T4_Content_Identity_Manifest.json'
+MANIFEST = 'tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json'
 PLAN = 'P6M5_T2_Content_Reconciliation_And_Coverage_Plan.md'
 OWNERS = {'assassin': ['T7', 'T7'], 'bladedancer': ['T3', 'T4'], 'shadow': ['T8', 'T8'], 'thief': ['T5', 'T6']}
 CONTRACTS = {

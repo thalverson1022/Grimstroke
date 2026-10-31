@@ -108,7 +108,7 @@ or denied storage. They do not replace real-browser layout and drag testing.
 - Real-browser visual, drag, and native download verification remains outstanding
   because the session's browser URL policy blocked local preview verification.
 
-See [plan](../../docs/tree_lab_docs/P6_Tree_Lab_Plan.md),
-[interaction rules](../../docs/tree_lab_docs/P6_Tree_Lab_Interaction_Rules.md),
-[JSON contract](../../docs/tree_lab_docs/P6_Tree_Lab_JSON_Contract.md), and
-[tracker](../../docs/tree_lab_docs/P6_Tree_Lab_Implementation_Tracker.md).
+See [plan](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/tree_lab_docs/P6_Tree_Lab_Plan.md),
+[interaction rules](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/tree_lab_docs/P6_Tree_Lab_Interaction_Rules.md),
+[JSON contract](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/tree_lab_docs/P6_Tree_Lab_JSON_Contract.md), and
+[tracker](https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/tree_lab_docs/P6_Tree_Lab_Implementation_Tracker.md).

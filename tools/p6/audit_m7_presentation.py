@@ -1,3 +1,4 @@
+raise SystemExit('Retired Phase 6 documentation tool. Use a separate checkout of Grimstroke commit 34cfed5 to reproduce the historical documents; current scope is docs/Game_Scope.md.')
 """T2: reproduce asset coverage and native-size contact sheets without changing assets."""
 import json, hashlib, subprocess
 from pathlib import Path

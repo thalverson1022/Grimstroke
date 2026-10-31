@@ -19,7 +19,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -31,7 +31,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -43,7 +43,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -55,7 +55,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -67,7 +67,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -79,7 +79,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -91,7 +91,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -103,7 +103,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -115,7 +115,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -127,7 +127,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Defensive Mechanics",
@@ -139,7 +139,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "id": "skill.blinding_powder",
@@ -151,7 +151,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/blinding_powder.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/automatic_unlocks/1/skill"
     },
     {
@@ -164,7 +164,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/master_of_poisons.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/automatic_unlocks/3/skill"
     },
     {
@@ -177,7 +177,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/poison_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/4/skill_grant"
     },
     {
@@ -190,7 +190,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/poison_vile.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/automatic_unlocks/4/skill"
     },
     {
@@ -203,7 +203,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/skills/venom_jab.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/automatic_unlocks/0/skill"
     },
     {
@@ -216,7 +216,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/virulent_poison.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/automatic_unlocks/2/skill"
     },
     {
@@ -229,7 +229,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/dance_of_death.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/automatic_unlocks/4/skill"
     },
     {
@@ -242,7 +242,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/leaping_plunge.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/automatic_unlocks/1/skill"
     },
     {
@@ -255,7 +255,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/parry_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/automatic_unlocks/2/skill"
     },
     {
@@ -268,7 +268,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/quick_cut.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/automatic_unlocks/0/skill"
     },
     {
@@ -281,7 +281,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/rending_slash.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/4/skill_grant"
     },
     {
@@ -333,7 +333,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/beguiling_presence.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/automatic_unlocks/4/skill"
     },
     {
@@ -346,7 +346,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/skills/beguiling_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/automatic_unlocks/0/skill"
     },
     {
@@ -359,7 +359,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/skills/death_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/automatic_unlocks/1/skill"
     },
     {
@@ -372,7 +372,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/skills/distilled_corruption.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/automatic_unlocks/2/skill"
     },
     {
@@ -385,7 +385,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/touch_of_darkness.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/automatic_unlocks/3/skill"
     },
     {
@@ -398,7 +398,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/big_score.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/automatic_unlocks/4/skill"
     },
     {
@@ -411,7 +411,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/mug.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/automatic_unlocks/1/skill"
     },
     {
@@ -424,7 +424,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/pick_pocket.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/automatic_unlocks/2/skill"
     },
     {
@@ -437,7 +437,7 @@
       "description_source": "Reviewed mechanics summary",
       "current_icon": "res://assets/ui/assigned_flat/skills/steal.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/automatic_unlocks/0/skill"
     },
     {
@@ -450,7 +450,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/accelerant.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/7"
     },
     {
@@ -463,7 +463,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/bypass.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/5"
     },
     {
@@ -476,7 +476,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/critical_poison.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/9"
     },
     {
@@ -489,7 +489,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/echoing_toxin.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/3"
     },
     {
@@ -502,7 +502,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/hastened_poison.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/2"
     },
     {
@@ -515,7 +515,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/poison_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/4"
     },
     {
@@ -528,7 +528,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/precision.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/1"
     },
     {
@@ -541,7 +541,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/quick_hands.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/0"
     },
     {
@@ -554,7 +554,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/resonance.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/8"
     },
     {
@@ -567,7 +567,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/assassin/toxic_tradeoff.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Assassin.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Assassin.json",
       "source_pointer": "/tree/talents/6"
     },
     {
@@ -580,7 +580,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/cloak_dagger.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/9"
     },
     {
@@ -593,7 +593,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/double_dip.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/7"
     },
     {
@@ -606,7 +606,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/fancy_footwork.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/5"
     },
     {
@@ -619,7 +619,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/opportunity.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/2"
     },
     {
@@ -632,7 +632,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/precision_attacks.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/6"
     },
     {
@@ -645,7 +645,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/rending_slash.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/4"
     },
     {
@@ -658,7 +658,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/riposte.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/10"
     },
     {
@@ -671,7 +671,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/sharpened_edge.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/8"
     },
     {
@@ -684,7 +684,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/side_step.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/11"
     },
     {
@@ -697,7 +697,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/virulent_corruption.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/3"
     },
     {
@@ -710,7 +710,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/weakness.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/0"
     },
     {
@@ -723,7 +723,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/weapon_master.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/12"
     },
     {
@@ -736,7 +736,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/bladedancer/whetstone.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Bladedancer.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Bladedancer.json",
       "source_pointer": "/tree/talents/1"
     },
     {
@@ -749,7 +749,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/blind_spot.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/2"
     },
     {
@@ -762,7 +762,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/coated_weapons.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/1"
     },
     {
@@ -775,7 +775,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/death_blade.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/10"
     },
     {
@@ -788,7 +788,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/death_from_the_shadows.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/8"
     },
     {
@@ -801,7 +801,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/death_pact.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/9"
     },
     {
@@ -814,7 +814,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/death_touch.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/4"
     },
     {
@@ -827,7 +827,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/deception.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/7"
     },
     {
@@ -840,7 +840,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/dusk_strike.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/5"
     },
     {
@@ -853,7 +853,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/shadow_mastery.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/6"
     },
     {
@@ -866,7 +866,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/snake_oil.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/3"
     },
     {
@@ -879,7 +879,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/shadow/umbral_presence.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Shadow.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Shadow.json",
       "source_pointer": "/tree/talents/0"
     },
     {
@@ -892,7 +892,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/bribery.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/8"
     },
     {
@@ -905,7 +905,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/charisma.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/6"
     },
     {
@@ -918,7 +918,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/fast_hands.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/4"
     },
     {
@@ -931,7 +931,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/fill_your_pockets.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/5"
     },
     {
@@ -944,7 +944,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/finders_keepers.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/9"
     },
     {
@@ -957,7 +957,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/gilded_blade.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/0"
     },
     {
@@ -970,7 +970,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/keen_eye.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/1"
     },
     {
@@ -983,7 +983,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/load_dice.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/7"
     },
     {
@@ -996,7 +996,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/silvered_edge.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/3"
     },
     {
@@ -1009,7 +1009,7 @@
       "description_source": "Design draft — wording may be superseded; not a runtime specification",
       "current_icon": "res://assets/ui/assigned_flat/talents/thief/sticky_fingers.png",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/talent_tree_drafts/Thief.json",
+      "source": "tools/p6/fixtures/talent_tree_drafts/Thief.json",
       "source_pointer": "/tree/talents/2"
     },
     {
@@ -1022,7 +1022,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.beguiling_presence"
     },
     {
@@ -1035,7 +1035,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "talent.assassin.bypass"
     },
     {
@@ -1048,7 +1048,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.dance_of_death"
     },
     {
@@ -1061,7 +1061,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "talent.bladedancer.fancy_footwork"
     },
     {
@@ -1074,7 +1074,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Player Buffs",
@@ -1086,7 +1086,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.master_of_poisons"
     },
     {
@@ -1099,7 +1099,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "talent.bladedancer.precision_attacks"
     },
     {
@@ -1112,7 +1112,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.parry_strike"
     },
     {
@@ -1125,7 +1125,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.touch_of_darkness"
     },
     {
@@ -1138,7 +1138,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md",
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md",
       "icon_source": "skill.virulent_poison"
     },
     {
@@ -1151,7 +1151,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Enemy Statuses",
@@ -1163,7 +1163,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Enemy Statuses",
@@ -1175,7 +1175,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Enemy Statuses",
@@ -1187,7 +1187,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     },
     {
       "category": "Enemy Statuses",
@@ -1199,7 +1199,7 @@
       "tree": "Shared",
       "description_source": "Reviewed mechanics summary",
       "content_status": "Live Phase 6 content; wording review belongs to M7-T5",
-      "source": "docs/Combat_Mechanics_Reference.md"
+      "source": "https://github.com/thalverson1022/Grimstroke/blob/34cfed52fa33cd133449749ce978c24f9821cf19/docs/Combat_Mechanics_Reference.md"
     }
   ],
   "assets": [
@@ -9010,7 +9010,7 @@
       "group": "Assigned game icons"
     }
   ],
-  "fingerprint": "684c346cf536c88d2d54ed6d9f925b89d766f91adad108f7b856d33848319ff6",
+  "fingerprint": "d31fc2b9c140cea61658b3a957484310242b5a82081f057e97d23ecc5c64822d",
   "legacy_fingerprints": [
     "e3fb9455e6981b64d50930656569a35d66b5a1a434035bbe1c6728e2728be0fa"
   ],

@@ -13,7 +13,7 @@ def main():
     assert manifest["release_ready"] is False
     for name, expected in manifest["sources"].items():
         assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected, name
-    planning = json.loads((ROOT / "docs/P6M2_T5_Build_Fixtures.json").read_text())
+    planning = json.loads((ROOT / "tools/p6/fixtures/P6M2_T5_Build_Fixtures.json").read_text())
     fixture = next(row for row in planning["fixtures"] if row["id"] == manifest["fixture_id"])
     assert fixture["budget"] == 10 and fixture["secondary"] is None
     profile = planning["profiles"][fixture["primary"]["profile"]]
@@ -30,7 +30,7 @@ def main():
     actual_ranks = json.loads(re.search(r"const RANKS := (.*)", script)[1])
     actual_rotation = json.loads(re.search(r"const ROTATION := (.*)", script)[1])
     assert actual_ranks == ranks and actual_rotation == fixture["rotation_skill_ids"]
-    identity = json.loads((ROOT / "docs/P6M2_T4_Content_Identity_Manifest.json").read_text())
+    identity = json.loads((ROOT / "tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json").read_text())
     allowed = {row["runtime_id"] for row in identity["records"]}
     references = set()
     for path in CORE.glob("*.tres"):

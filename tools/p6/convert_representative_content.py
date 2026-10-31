@@ -16,7 +16,7 @@ MAPPINGS = {
 
 
 def artifacts():
-    manifest = json.loads((ROOT / "docs/P6M2_T4_Content_Identity_Manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "tools/p6/fixtures/P6M2_T4_Content_Identity_Manifest.json").read_text(encoding="utf-8"))
     sources = {}
     for source in manifest["sources"]:
         raw = (ROOT / source["file"]).read_bytes()
