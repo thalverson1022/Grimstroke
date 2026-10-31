@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="GearItem" load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/gear_item.gd" id="1_gear"]
+[ext_resource type="Script" path="res://scripts/resources/stat_modifier.gd" id="2_affix"]
+
+[sub_resource type="Resource" id="Resource_wyvern_base_elemental"]
+script = ExtResource("2_affix")
+stat_id = "base_elemental_damage"
+stat = 3
+category = 0
+operation = 0
+value = 8.0
+display_label = "Base Elemental Damage"
+
+[sub_resource type="Resource" id="Resource_wyvern_percent_elemental"]
+script = ExtResource("2_affix")
+stat_id = "percent_elemental_damage"
+stat = 3
+category = 0
+operation = 0
+value = 0.4
+display_label = "Percent Elemental Damage"
+
+[sub_resource type="Resource" id="Resource_wyvern_decay"]
+script = ExtResource("2_affix")
+stat_id = "chance_to_decay"
+stat = 0
+category = 1
+operation = 0
+value = 0.12
+display_label = "Chance to Decay"
+
+[sub_resource type="Resource" id="Resource_wyvern_cadence"]
+script = ExtResource("2_affix")
+stat = 8
+category = 4
+operation = 1
+value = 0.5
+display_label = "Poison Tick Interval"
+
+[resource]
+script = ExtResource("1_gear")
+id = "gear.legendary.wyvern_kriss"
+legendary_effect_id = "wyvern"
+display_name = "Wyvern Kriss"
+slot = 0
+tier = 3
+item_family = "Dagger"
+class_family = 1
+source_kind = 3
+affixes = Array[StatModifier]([SubResource("Resource_wyvern_base_elemental"), SubResource("Resource_wyvern_percent_elemental"), SubResource("Resource_wyvern_decay"), SubResource("Resource_wyvern_cadence")])

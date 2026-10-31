@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export artifacts
+export/
+
+# Ad hoc headless test-run logs (project/tests/run_tests.sh output)
+user_logs_tmp/
