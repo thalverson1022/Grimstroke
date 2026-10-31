@@ -2,7 +2,7 @@
 
 Grimstroke is a fantasy DPS and build-crafting RPG prototype. The player prepares a Rogue's talents, equipment, and skill sequence, then watches the build play out against an enemy within a time limit. The central challenge is finding combinations that deal enough damage and overcome the target's defenses.
 
-Grimstroke continues the completed FacelessVoid phase. The current game is the accepted starting point; the next phase's goals have not yet been chosen.
+Grimstroke continues the completed FacelessVoid phase. The current game described here is the accepted starting point. The [Phase 7 draft plan](Phase_7_Project_Plan.md) proposes the town, services, lives, potions, Mountain Road, and subsequent economic balancing; those changes are not yet implemented.
 
 ## The game loop
 
@@ -42,8 +42,8 @@ The imported baseline passed focused startup, mode, combat, playback, and save/r
 
 ## Next phase and documentation
 
-An economic audit is intended future work. Broader balance work and trigger usability/performance investigation are also deferred candidates. Agree on the next phase before assigning milestones or changing these policies.
+The [Phase 7 draft plan](Phase_7_Project_Plan.md) owns the proposed work and its stages. New town systems are designed before the economic audit so rewards and prices can be balanced against the new spending choices. Broader work beyond that plan remains deferred.
 
-Keep this as the single maintained project scope document. Update it when the game's scope changes; do not create separate handoffs, status summaries, or milestone documents unless explicitly requested. Keep execution logs in ignored reports. Use code and resources for detailed mechanics, and Git history for past decisions.
+Keep this as the concise implemented-game overview. [Onboarding](Onboarding.md) provides the starting reading order and source navigation. The explicitly requested Phase 7 plan owns design and scope; the [milestone tracker](Phase_7_Milestone_Tracker.md) owns progress and acceptance. Update these documents in place; do not create additional handoffs, status summaries, or per-milestone documents unless explicitly requested. Keep execution logs in ignored reports. Use code and resources for detailed mechanics, and Git history for past decisions.
 
 The starting snapshot is Grimstroke commit `34cfed5`, imported from FacelessVoid `b5ab445`. Previous phase documentation is recoverable there without keeping it in the working tree.
